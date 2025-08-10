@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  max-width: 964px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+  margin: 0 auto;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Commons";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/TTCommons-Light.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Commons";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/TTCommons-Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Commons";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/TTCommons-Medium.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Commons";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/TTCommons-Bold.woff2) format("woff2");
+  }
+}
