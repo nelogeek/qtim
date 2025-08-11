@@ -4,6 +4,6 @@
 
 <template>
   <div class="mx-[7rem] mt-[7.5rem] mb-[3.12rem]">
-    Страница о нас
+    Страница о нас (ХУЙ)
   </div>
 </template>
