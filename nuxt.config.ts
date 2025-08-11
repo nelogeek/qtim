@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  ssr: false,
+  ssr: true,
   css: ["~/shared/assets/css/main.css"],
   modules: [
     "@nuxt/eslint",
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/qtim/",
     // buildAssetsDir: '/qtim/_nuxt/',
-    cdnURL: 'https://nelogeek.github.io/qtim',
+    cdnURL: 'https://nelogeek.github.io/qtim', 
 
     head: {
       charset: "utf-8",
