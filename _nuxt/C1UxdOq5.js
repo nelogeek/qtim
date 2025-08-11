@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{c,o}from"./BsKDYBO5.js";const r={},t={class:"mx-[7rem] mt-[7.5rem] mb-[3.12rem]"};function s(m,n){return o(),c("div",t," Страница политики ")}const f=e(r,[["render",s]]);export{f as default};

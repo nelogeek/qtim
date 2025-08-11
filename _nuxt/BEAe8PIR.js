@@ -1,0 +1,1 @@
+import{c as t,a as o,o as n}from"./BsKDYBO5.js";const r={xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",fill:"none"};function s(l,e){return n(),t("svg",r,e[0]||(e[0]=[o("path",{stroke:"#494949","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"1.3",d:"m9.5 7.5 5 5-5 5"},null,-1)]))}const d={render:s};export{d as default,s as render};

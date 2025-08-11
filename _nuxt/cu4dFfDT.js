@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{c as r,o}from"./BsKDYBO5.js";const c={},t={class:"mx-[7rem] mt-[7.5rem] mb-[3.12rem]"};function s(m,n){return o(),r("div",t," Страница работ ")}const f=e(c,[["render",s]]);export{f as default};
