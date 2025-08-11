@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && gh-pages -d dist -t true"
+    "deploy": "nuxt generate && gh-pages -d dist -t true --no-verify"
   },
   "dependencies": {
     "@nuxt/eslint": "1.8.0",
