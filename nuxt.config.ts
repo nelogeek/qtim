@@ -1,9 +1,8 @@
-import { fileURLToPath } from 'node:url'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  ssr: true,
+  ssr: false,
   css: ["~/shared/assets/css/main.css"],
   modules: [
     "@nuxt/eslint",
@@ -14,7 +13,6 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/qtim/",
     // buildAssetsDir: '/qtim/_nuxt/',
-    cdnURL: 'https://nelogeek.github.io/qtim', 
 
     head: {
       charset: "utf-8",
@@ -43,8 +41,8 @@ export default defineNuxtConfig({
   },
 
   alias: {
-    assets: fileURLToPath(new URL('./shared/assets', import.meta.url)),
-    public: fileURLToPath(new URL('./shared/public', import.meta.url)),
+    assets: "./shared/assets",
+    public: "./shared/public",
   },
 
   components: [
