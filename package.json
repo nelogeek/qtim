@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && gh-pages -d .output/public -r https://github.com/NeloGeek/qtim.git"
+    "deploy": "nuxt generate && gh-pages -d .output/public -r https://github.com/NeloGeek/qtim.git -t true"
   },
   "dependencies": {
     "@nuxt/eslint": "1.8.0",
