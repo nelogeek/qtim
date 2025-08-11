@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -42,8 +43,8 @@ export default defineNuxtConfig({
   },
 
   alias: {
-    assets: "./shared/assets",
-    public: "./shared/public",
+    assets: fileURLToPath(new URL('./shared/assets', import.meta.url)),
+    public: fileURLToPath(new URL('./shared/public', import.meta.url)),
   },
 
   components: [
