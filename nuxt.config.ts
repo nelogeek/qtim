@@ -12,8 +12,9 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: "/qtim/",
-    buildAssetsDir: '/_nuxt/',
-    
+    // buildAssetsDir: '/qtim/_nuxt/',
+    cdnURL: 'https://nelogeek.github.io/qtim',
+
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
