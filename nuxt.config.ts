@@ -11,12 +11,14 @@ export default defineNuxtConfig({
   ],
 
   app: {
+    baseURL: "/qtim/",
+    buildAssetsDir: '/_nuxt/',
+    
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       titleTemplate: "%s | QTIM",
     },
-    baseURL: "/qtim/",
   },
 
   imports: {
